@@ -16,6 +16,7 @@ type contextEnvironment struct {
 	UserId           string
 	UserEmail        string
 	OutputBucketName string
+	CustomTagsJson   string
 
 	EngineName            string
 	EngineDesignation     string
@@ -43,6 +44,7 @@ func (input contextEnvironment) ToEnvironmentList() []string {
 		"USER_EMAIL":    input.UserEmail,
 		"OUTPUT_BUCKET": input.OutputBucketName,
 		"AGC_VERSION":   version.Version,
+		"CUSTOM_TAGS":   input.CustomTagsJson,
 
 		"ENGINE_NAME":              input.EngineName,
 		"ENGINE_DESIGNATION":       input.EngineDesignation,
