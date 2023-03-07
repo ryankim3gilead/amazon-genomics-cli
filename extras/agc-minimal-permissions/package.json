@@ -11,7 +11,7 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.126.0",
+    "@aws-cdk/assert": "1.195.0",
     "@types/jest": "^27.0.2",
     "@types/node": "16.10.3",
     "aws-cdk": "^1.126.0",
@@ -21,8 +21,8 @@
     "typescript": "~4.4.3"
   },
   "dependencies": {
-    "@aws-cdk/aws-iam": "^1.126.0",
-    "@aws-cdk/core": "^1.126.0",
+    "@aws-cdk/aws-iam": "^1.195.0",
+    "@aws-cdk/core": "^1.195.0",
     "source-map-support": "^0.5.20"
   }
 }
